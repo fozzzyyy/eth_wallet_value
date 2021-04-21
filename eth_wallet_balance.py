@@ -11,7 +11,7 @@ private_key = None
 bscscan_api_key = "" # get api key from bscscan
 bsc_wallet = "" # bsc wallet address
 
-infura_project = "2feeeb516ef94c818346cb441c42ed5f"
+infura_project = ""
 w3 = Web3(Web3.HTTPProvider(f"https://mainnet.infura.io/v3/{infura_project}"))
 os.environ["PROVIDER"] = f"https://mainnet.infura.io/v3/{infura_project}"
 
